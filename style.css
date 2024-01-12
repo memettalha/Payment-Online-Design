@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+ 
+}
+
+.payment{
+    width:350px;
+    height:600px;
+    background-image: linear-gradient(#58038f,#9200ff);
+    top:50%; 
+    left:50%;
+    transform:translate(-50%,-50%);   
+    position:absolute;
+
+}
+
+.top-box{
+    height:150px;
+    background-color: #9100fb;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.top-box p{
+    text-align:center;
+    padding-top:20px;
+    color:#fff;
+}
+
+.left-icon{
+    float:left;
+    padding-left: 40px;
+}
+
+.right-icon{
+    float:right;
+    padding-right:40px;
+}
+
+.middle-box{
+    height:120px;
+    background-image: linear-gradient(#580e8f,#9200ff);
+    margin:-100px 30px 20px;
+    color:#fff;
+    text-align:center;
+    font-size:12px;
+    border-radius: 10px;
+}
+
+.middle-box h1{
+    font-size: 48px;
+   padding-top: 10px;
+   
+}
+.middle-box h1 span{
+    font-size:20px;
+    margin-left:5px;
+    bottom: 18px;
+    position:relative;
+}
+
+.middle-box p{
+    padding-top:30px;
+}
+
+.payment-option{
+    background-color:#9200ff ;
+    color:white;
+    display:block;
+    margin-top:10px;
+    width:300px;
+    margin-left:20px;
+    margin-bottom:20px;
+    padding:10px;
+    border-radius: 20%;
+    cursor:pointer;
+}
+
+.odeme{
+    background-color: #fff;
+    width:80%;
+    margin-left:10%;
+    border-radius: 10%;
+    color:#555;
+}
+
+.odeme .baslik{
+    font-size:20px;
+    margin-top: 15px;
+    padding-top:15px ;
+    padding-left: 40px;
+}
+
+.number{
+    margin-top:10px;
+    font-size:14px;
+    margin-left:5%;
+}
+
+.xxx{
+    display: block;
+    width:230px;
+    margin-left: 5%;
+}
+
+.date{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.date p{
+    display:inline;
+}
+.cvc{
+    margin-left: 95px;
+}
+
+.bosluk{
+    display: flex;
+    justify-content: space-between;
+    margin-left:5px;
+}
+
+.bosluk input{
+    width:80px;
+}
+
+.owner{
+    font-size: 14px;
+    margin-top:20px;
+    margin-left:5px;
+}
+.owner p{
+    margin-left:10px;
+}
+.owner input{
+    width:230px;
+    margin-left: 5%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.pay{
+    width:90%;
+    margin-left: 5%;
+    margin-bottom:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #9100fb;
+    color:white;
+}
+
+input{
+    border-radius:15%;
+    height:30px;
+    border:1px solid #ccc;
+}
+
+input:hover{
+    border:1px solid rgb(60, 60, 187)
+}
